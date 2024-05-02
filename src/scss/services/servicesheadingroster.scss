@@ -1,0 +1,89 @@
+body {
+  .container {
+    .services {
+      .services-heading__roster {
+        background-color: #f8f8f8;
+        .services-top {
+          position: relative;
+          padding: 16px 16px 24px 16px;
+          .services-top__sot {
+            margin: 0;
+            font-size: 28px;
+            line-height: 40px;
+            &::before {
+              content: '';
+              position: absolute;
+              left: 0;
+              width: 4px;
+              height: 40px;
+              border-radius: 10px;
+              background-color: turquoise;
+            }
+          }
+          .services-top__hidden {
+            display: none;
+            gap: 160px;
+            .btn__services {
+              cursor: pointer;
+              padding: 0;
+              width: 40px;
+              height: 40px;
+              border: none;
+              border-radius: 50%;
+              background-color: #ff3e79;
+              &:first-child:before {
+                content: 'Оставить заявку';
+                position: absolute;
+                text-wrap: nowrap;
+                font-family: TT Lakes;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                transform: translateX(-150px) translateY(-3px);
+              }
+              &:last-child::before {
+                content: 'Статус ремонта';
+                position: absolute;
+                text-wrap: nowrap;
+                font-family: TT Lakes;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                transform: translateX(-150px) translateY(-3px);
+              }
+              .btn__services-img {
+                vertical-align: middle;
+              }
+            }
+          }
+        }
+        .services-bottom {
+          .services-bottom__list {
+            padding-right: 16px;
+            padding-left: 16px;
+            margin: 0;
+            overflow-x: scroll;
+            scrollbar-width: none;
+            list-style: none;
+            display: flex;
+            .services-bottom__item {
+              padding: 8px 10px 8px 16px;
+              box-sizing: border-box;
+              border: 1px solid transparent;
+              border-radius: 10px;
+              &:hover {
+                border-color: turquoise;
+                background-color: white;
+              }
+              .services-bottom__link {
+                color: rgb(126, 126, 130);
+                text-wrap: nowrap;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

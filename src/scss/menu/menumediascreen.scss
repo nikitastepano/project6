@@ -1,0 +1,44 @@
+@media screen and (min-width: 360px) {
+  body {
+    .container {
+      .menu {
+        width: 360px;
+        transform: translateX(-400px);
+        box-shadow: 20px 0px 20px 0px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    .container {
+      .menu {
+        width: 320px;
+        transform: translateX(-400px);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    .container {
+      .menu {
+        min-width: 310px;
+        position: sticky;
+        transform: translateX(0);
+        box-shadow: none;
+        .menu-top-middle {
+          .menu-top {
+            .menu-top__left {
+              .btn-menu {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

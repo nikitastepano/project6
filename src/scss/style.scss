@@ -1,0 +1,61 @@
+// font
+
+@import '../fonts/TTLakes/stylesheet.css';
+
+// menu
+
+@import '../scss/menu/menu.scss';
+
+@import '../scss/menu/menumediascreen.scss';
+
+// services
+
+@import '../scss/services/services.scss';
+
+@import '../scss/services/servicesheader.scss';
+
+@import '../scss/services/servicesheadingroster.scss';
+
+@import '../scss/services/servicesheadermediascreen.scss';
+
+@import '../scss/services/servicesmain.scss';
+
+@import '../scss/services/servicesbrend.scss';
+
+@import '../scss/services/servicestexnology.scss';
+
+@import '../scss/services/servicessale.scss';
+
+@import '../scss/services/servicessalehidden.scss';
+
+// footer
+
+@import '../scss/footer/footer.scss';
+
+//menu call
+
+@import '../scss/menucall/menucall.scss';
+
+@import '../scss/menucall/menupeople.scss';
+
+// unused class
+
+@import '../scss/unusedclass.scss';
+
+// body
+
+body {
+  margin: 0;
+  font-family: 'TT Lakes';
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    .container {
+      display: flex;
+      max-width: 1440px; 
+      margin: 0 auto;
+    }
+  }
+}
+

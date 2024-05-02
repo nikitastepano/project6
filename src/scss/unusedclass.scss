@@ -1,0 +1,38 @@
+body {
+  .container-hidden {
+    &::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 900;
+      width: 100vw;
+      height: 100vh;
+      background-color: white;
+      opacity: 0.8;
+    }
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #b5b6bc;
+}
+
+.container-hidden-second {
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1900;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    opacity: 0.8;
+  }
+}

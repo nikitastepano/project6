@@ -1,0 +1,176 @@
+body {
+  .container {
+    .services {
+      .services-brends {
+        border-top: 1px solid turquoise;
+        background-color: #f8f8f8;
+        .services-brends__sot {
+          margin: 0;
+          padding: 16px;
+          color: rgb(126, 126, 130);
+          font-family: TT Lakes;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: -0.2px;
+          text-align: left;
+          text-transform: uppercase;
+          background: linear-gradient(
+            90deg,
+            rgb(248, 248, 248) 1.386%,
+            rgb(255, 255, 255) 100%
+          );
+        }
+        .services-brends__list {
+          .services-brends__roster {
+            margin: 0;
+            list-style: none;
+            padding-left: 16px;
+            display: flex;
+            gap: 16px;
+            padding-top: 16px;
+            padding-bottom: 52px;
+            .services-brends__item {
+              display: flex;
+              justify-content: space-between;
+              border: 1px solid #eaeaea;
+              border-radius: 10px;
+              box-sizing: border-box;
+              max-width: 240px;
+              max-height: 72px;
+              align-items: center;
+              background-color: white;
+              img {
+                padding-left: 16px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+              }
+              .btn-services-brends {
+                cursor: pointer;
+                padding: 0;
+                margin: 16px;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: 2px solid #ff3e79;
+                background-color: white;
+                img {
+                  padding: 0;
+                }
+              }
+            }
+          }
+          .btn-services-brends-hidden {
+            cursor: pointer;
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    .container {
+      .services {
+        .services-brends {
+          .services-brends__list {
+            padding-bottom: 32px;
+            .services-brends__roster {
+              padding-left: 24px;
+              padding-bottom: 24px;
+              flex-wrap: wrap;
+              transform: translateX(0) !important;
+              .services-brends__item {
+                &:nth-child(7),
+                &:nth-child(8),
+                &:nth-child(9),
+                &:nth-child(10),
+                &:nth-child(11),
+                &:nth-child(12) {
+                  display: none;
+                }
+              }
+            }
+            .btn-services-brends-hidden {
+              display: block;
+              padding: 0;
+              margin-left: 56px;
+              border: none;
+              background-color: inherit;
+              color: rgb(27, 28, 33);
+              font-family: TT Lakes;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              &::before {
+                content: '';
+                background-image: url(../img/imgservices/8.svg);
+                background-repeat: no-repeat;
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                transform: translateX(-22px) translateY(7px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .swiper-pagination-bullet {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    .container {
+      .services {
+        .services-brends {
+          .services-brends__list {
+            padding-bottom: 50px;
+            .services-brends__roster {
+              padding-left: 0;
+              justify-content: center;
+              padding-bottom: 24px;
+              gap: 16px;
+              flex-wrap: wrap;
+              transform: translateX(0) !important;
+              
+              .services-brends__item {
+                margin-right: 16px;
+                &:nth-child(7),
+                &:nth-child(8) {
+                  display: flex;
+                }
+              }
+            }
+            .btn-services-brends-hidden {
+              display: block;
+              padding: 0;
+              margin-left: 66px;
+              border: none;
+              background-color: inherit;
+              color: rgb(27, 28, 33);
+              font-family: TT Lakes;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              &::before {
+                content: '';
+                background-image: url(../img/imgservices/8.svg);
+                background-repeat: no-repeat;
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                transform: translateX(-22px) translateY(7px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

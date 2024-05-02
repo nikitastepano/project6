@@ -1,0 +1,626 @@
+body {
+  .container {
+    .services {
+      .services-sale-hidden {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    .container {
+      .services {
+        .services-sale-hidden {
+          display: block;
+          border-top: 1px solid turquoise;
+          background-color: #f8f8f8;
+          .services-sale-hidden__sot {
+            margin: 0;
+            padding: 16px;
+            color: rgb(126, 126, 130);
+            font-family: TT Lakes;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            text-align: left;
+            text-transform: uppercase;
+            background: linear-gradient(
+              90deg,
+              rgb(248, 248, 248) 1.386%,
+              rgb(255, 255, 255) 100%
+            );
+          }
+          .services-sale-hidden__roster {
+            padding: 31px 24px 46px;
+            .services-sale-hidden__roster-top {
+              display: grid !important;
+              grid-template-columns: 2fr 1fr 1fr 1fr;
+              padding-left: 16px;
+                padding-bottom: 16px;
+              .text-sale-hidden {
+                margin: 0;
+                padding: 0 !important;
+                color: rgb(126, 126, 130);
+                font-family: TT Lakes;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: 0px;
+              }
+            }
+            .services-sale-hidden__roster-middle {
+              background-color: white;
+              border-radius: 10px;
+              .services-sale-hidden__roster__first {
+                margin-left: 16px;
+                margin-right: 16px;
+                display: grid;
+        grid-template-columns: 4fr 1fr 1fr 1fr;
+                border-bottom: 1px solid #eaeaea;
+                align-items: center;
+                .text-sale-hidden {
+                  margin: 24px 0;
+                  color: rgb(27, 28, 33);
+                  font-family: TT Lakes;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 18px;
+                  letter-spacing: 0.2px;
+                  &:nth-child(1) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(2) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(3) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                }
+                .btn-sale-hidden {
+                  cursor: pointer;
+                  margin-left: auto;
+                  background-color: rgb(255, 62, 121);
+                  border: none;
+                  border-radius: 20px;
+                  color: rgb(255, 255, 255);
+                  font-family: TT Lakes;
+                  font-size: 12px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: -0.15px;
+                  text-transform: uppercase;
+                  width: 120px;
+                  height: 32px;
+                  text-align: start;
+                  padding: 0;
+                  padding-left: 16px;
+                  img {
+                    margin-left: 12px;
+                  }
+                }
+              }
+              .services-sale-hidden__roster__second {
+                margin-left: 16px;
+                margin-right: 16px;
+                display: flex;
+                border-bottom: 1px solid #eaeaea;
+                align-items: center;
+                .text-sale-hidden {
+                  margin: 24px 0;
+                  color: rgb(27, 28, 33);
+                  font-family: TT Lakes;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 18px;
+                  letter-spacing: 0.2px;
+                  &:nth-child(1) {
+                    padding-right: 259px;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(2) {
+                    padding-right: 44px;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(3) {
+                    padding-right: 20px;
+                    text-wrap: nowrap;
+                  }
+                }
+                .btn-sale-hidden {
+                  cursor: pointer;
+                  background-color: rgb(255, 62, 121);
+                  border: none;
+                  border-radius: 20px;
+                  color: rgb(255, 255, 255);
+                  font-family: TT Lakes;
+                  font-size: 12px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: -0.15px;
+                  text-transform: uppercase;
+                  width: 120px;
+                  height: 32px;
+                  text-align: start;
+                  padding: 0;
+                  padding-left: 16px;
+                  img {
+                    margin-left: 12px;
+                  }
+                }
+              }
+              .services-sale-hidden__roster__therd {
+                margin-left: 16px;
+                margin-right: 16px;
+                display: flex;
+                border-bottom: 1px solid #eaeaea;
+                align-items: center;
+                .text-sale-hidden {
+                  margin: 24px 0;
+                  color: rgb(27, 28, 33);
+                  font-family: TT Lakes;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 18px;
+                  letter-spacing: 0.2px;
+                  &:nth-child(1) {
+                    padding-right: 124px;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(2) {
+                    padding-right: 44px;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(3) {
+                    padding-right: 20px;
+                    text-wrap: nowrap;
+                  }
+                }
+                .btn-sale-hidden {
+                  cursor: pointer;
+                  background-color: rgb(255, 62, 121);
+                  border: none;
+                  border-radius: 20px;
+                  color: rgb(255, 255, 255);
+                  font-family: TT Lakes;
+                  font-size: 12px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: -0.15px;
+                  text-transform: uppercase;
+                  width: 120px;
+                  height: 32px;
+                  text-align: start;
+                  padding: 0;
+                  padding-left: 16px;
+                  img {
+                    margin-left: 12px;
+                  }
+                }
+              }
+              .services-sale-hidden__roster__fourth {
+                margin-left: 16px;
+                margin-right: 16px;
+                display: flex;
+                border-bottom: 1px solid #eaeaea;
+                align-items: center;
+                .text-sale-hidden {
+                  margin: 24px 0;
+                  color: rgb(27, 28, 33);
+                  font-family: TT Lakes;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 18px;
+                  letter-spacing: 0.2px;
+                  &:nth-child(1) {
+                    padding-right: 24px;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(2) {
+                    padding-right: 44px;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(3) {
+                    padding-right: 20px;
+                    text-wrap: nowrap;
+                  }
+                }
+                .btn-sale-hidden {
+                  cursor: pointer;
+                  background-color: rgb(255, 62, 121);
+                  border: none;
+                  border-radius: 20px;
+                  color: rgb(255, 255, 255);
+                  font-family: TT Lakes;
+                  font-size: 12px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: -0.15px;
+                  text-transform: uppercase;
+                  width: 120px;
+                  height: 32px;
+                  text-align: start;
+                  padding: 0;
+                  padding-left: 16px;
+                  img {
+                    margin-left: 12px;
+                  }
+                }
+              }
+              .services-sale-hidden__roster__five {
+                margin-left: 16px;
+                margin-right: 16px;
+                display: flex;
+                align-items: center;
+                .text-sale-hidden {
+                  margin: 24px 0;
+                  color: rgb(27, 28, 33);
+                  font-family: TT Lakes;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 18px;
+                  letter-spacing: 0.2px;
+                  &:nth-child(1) {
+                    padding-right: 124px;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(2) {
+                    padding-right: 44px;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(3) {
+                    padding-right: 20px;
+                    text-wrap: nowrap;
+                  }
+                }
+                .btn-sale-hidden {
+                  cursor: pointer;
+                  background-color: rgb(255, 62, 121);
+                  border: none;
+                  border-radius: 20px;
+                  color: rgb(255, 255, 255);
+                  font-family: TT Lakes;
+                  font-size: 12px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: -0.15px;
+                  text-transform: uppercase;
+                  width: 120px;
+                  height: 32px;
+                  text-align: start;
+                  padding: 0;
+                  padding-left: 16px;
+                  img {
+                    margin-left: 12px;
+                  }
+                }
+              }
+            }
+          }
+          .services-sale-hidden__footer {
+            .text-sale-hidden-footer {
+              padding-left: 24px;
+              width: 420px;
+              color: rgb(27, 28, 33);
+              font-family: TT Lakes;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 20px;
+              letter-spacing: 0.2px;
+              text-align: left;
+            }
+            .text-sale-hidden-footer-second {
+              cursor: pointer;
+              padding-left: 24px;
+              color: rgb(27, 28, 33);
+              font-family: TT Lakes;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              letter-spacing: -0.2px;
+              text-align: left;
+              img {
+                padding-left: 8px;
+                transform: translateY(1px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    .container {
+      .services {
+        .services-sale-hidden {
+          display: block;
+          border-top: 1px solid turquoise;
+          background-color: #f8f8f8;
+          .services-sale-hidden__sot {
+            margin: 0;
+            padding: 16px;
+            color: rgb(126, 126, 130);
+            font-family: TT Lakes;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            text-align: left;
+            text-transform: uppercase;
+            background: linear-gradient(
+              90deg,
+              rgb(248, 248, 248) 1.386%,
+              rgb(255, 255, 255) 100%
+            );
+          }
+          .services-sale-hidden__roster {
+            padding: 31px 24px 46px;
+            .services-sale-hidden__roster-top {
+              display: flex;
+              .text-sale-hidden {
+                margin: 0;
+                padding-left: 16px;
+                padding-bottom: 16px;
+                color: rgb(126, 126, 130);
+                font-family: TT Lakes;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: 0px;
+                &:nth-child(1) {
+                  padding-right: 0;
+                }
+                &:nth-child(2) {
+                  padding-right: 0;
+                }
+              }
+            }
+            .services-sale-hidden__roster-middle {
+              background-color: white;
+              border-radius: 10px;
+              .services-sale-hidden__roster__first {
+                margin-left: 16px;
+                margin-right: 16px;
+                display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+                border-bottom: 1px solid #eaeaea;
+                align-items: center;
+                .text-sale-hidden {
+                  margin: 24px 0;
+                  color: rgb(27, 28, 33);
+                  font-family: TT Lakes;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 18px;
+                  letter-spacing: 0.2px;
+                  &:nth-child(1) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(2) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(3) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                }
+                .btn-sale-hidden {
+                  cursor: pointer;
+                  background-color: rgb(255, 62, 121);
+                  border: none;
+                  border-radius: 20px;
+                  color: rgb(255, 255, 255);
+                  font-family: TT Lakes;
+                  font-size: 12px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: -0.15px;
+                  text-transform: uppercase;
+                  width: 120px;
+                  height: 32px;
+                  text-align: start;
+                  padding: 0;
+                  padding-left: 16px;
+                }
+              }
+              .services-sale-hidden__roster__second {
+                margin-left: 16px;
+                margin-right: 16px;
+                display: flex;
+                border-bottom: 1px solid #eaeaea;
+                align-items: center;
+                .text-sale-hidden {
+                  
+                  margin: 24px 0;
+                  color: rgb(27, 28, 33);
+                  font-family: TT Lakes;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 18px;
+                  letter-spacing: 0.2px;
+                  &:nth-child(1) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(2) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(3) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                }
+                .btn-sale-hidden {
+                  cursor: pointer;
+                  background-color: rgb(255, 62, 121);
+                  border: none;
+                  border-radius: 20px;
+                  color: rgb(255, 255, 255);
+                  font-family: TT Lakes;
+                  font-size: 12px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: -0.15px;
+                  text-transform: uppercase;
+                  width: 120px;
+                  height: 32px;
+                  text-align: start;
+                  padding: 0;
+                  padding-left: 16px;
+                }
+              }
+              .services-sale-hidden__roster__therd {
+                margin-left: 16px;
+                margin-right: 16px;
+                display: flex;
+                border-bottom: 1px solid #eaeaea;
+                align-items: center;
+                .text-sale-hidden {
+                  margin: 24px 0;
+                  color: rgb(27, 28, 33);
+                  font-family: TT Lakes;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 18px;
+                  letter-spacing: 0.2px;
+                  &:nth-child(1) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(2) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(3) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                }
+                .btn-sale-hidden {
+                  cursor: pointer;
+                  background-color: rgb(255, 62, 121);
+                  border: none;
+                  border-radius: 20px;
+                  color: rgb(255, 255, 255);
+                  font-family: TT Lakes;
+                  font-size: 12px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: -0.15px;
+                  text-transform: uppercase;
+                  width: 120px;
+                  height: 32px;
+                  text-align: start;
+                  padding: 0;
+                  padding-left: 16px;
+                }
+              }
+              .services-sale-hidden__roster__fourth {
+                margin-left: 16px;
+                margin-right: 16px;
+                display: flex;
+                border-bottom: 1px solid #eaeaea;
+                align-items: center;
+                .text-sale-hidden {
+                  margin: 24px 0;
+                  color: rgb(27, 28, 33);
+                  font-family: TT Lakes;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 18px;
+                  letter-spacing: 0.2px;
+                  &:nth-child(1) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(2) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(3) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                }
+                .btn-sale-hidden {
+                  cursor: pointer;
+                  background-color: rgb(255, 62, 121);
+                  border: none;
+                  border-radius: 20px;
+                  color: rgb(255, 255, 255);
+                  font-family: TT Lakes;
+                  font-size: 12px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: -0.15px;
+                  text-transform: uppercase;
+                  width: 120px;
+                  height: 32px;
+                  text-align: start;
+                  padding: 0;
+                  padding-left: 16px;
+                }
+              }
+              .services-sale-hidden__roster__five {
+                margin-left: 16px;
+                margin-right: 16px;
+                display: flex;
+                align-items: center;
+                .text-sale-hidden {
+                  margin: 24px 0;
+                  color: rgb(27, 28, 33);
+                  font-family: TT Lakes;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 18px;
+                  letter-spacing: 0.2px;
+                  &:nth-child(1) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(2) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                  &:nth-child(3) {
+                    padding-right: 0;
+                    text-wrap: nowrap;
+                  }
+                }
+                .btn-sale-hidden {
+                  cursor: pointer;
+                  background-color: rgb(255, 62, 121);
+                  border: none;
+                  border-radius: 20px;
+                  color: rgb(255, 255, 255);
+                  font-family: TT Lakes;
+                  font-size: 12px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  letter-spacing: -0.15px;
+                  text-transform: uppercase;
+                  width: 120px;
+                  height: 32px;
+                  text-align: start;
+                  padding: 0;
+                  padding-left: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
